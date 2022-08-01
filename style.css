@@ -1,0 +1,176 @@
+/*TAMAÑO DE LETRA*/
+h2 {
+  color: gold;
+  font-size: 23px;
+}
+/*TIPO DE LETRA*/
+header h1 {
+  /*font-family: 'Oleo Script', cursive;*/
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+  text-shadow: 2px, 2px, 4px, #000000;
+  text-align-last: center;
+}
+h2,
+p {
+  font-family: "Courier New";
+}
+.campo {
+  font-family: Times New Roman;
+}
+/*LINEA DEBAJO DE TEXTO*/
+h2 {
+  text-decoration: underline;
+}
+/*PARA IMAGENES*/
+/*img {
+  width: 200px;
+}
+*/
+/*IMAGENES CON CLASES CON BORDES*/
+/*
+.pokemon {
+  width: 200px;
+  height: 200px;
+  Tamaño de imagen
+  border-width: 10px; 
+  border-color: green;
+  border-style: solid double;
+  background-size: cover;
+}
+*/
+.manos {
+  width: 300px;
+  border-width: 10px; /*Ancho del borde*/
+  border-color: orange;
+  border-style: solid double;
+  border-radius: 50px;
+}
+/*IMAGENES CON BORDES REDONDOS*/
+.pokemon {
+  border-radius: 50px;
+  /*border-radius: 50%; Para circulo */
+}
+/*CAMBIAR COLOR DE FONDO DE UN DIV*/
+
+nav {
+  background: yellow;
+  text-align: center;
+}
+
+  
+nav ul li {
+  display: inline-block;
+  padding: 10px; /*Separar Bloques*/
+  
+}
+
+nav ul li a {
+  text-decoration: none; /*Quitar lineas de abajo*/
+  font-family: Times New Roman;
+  color: blue;
+  text-shadow: 2px 2px 4px #000000;/*Sombra del texto*/
+}
+
+nav ul li a:hover {
+  color: green; /*Cada que pase el mouse se pondra verde */
+}
+  
+ 
+/*
+main {
+  background-image: url('imagenes/imagen.gif');
+  background: rgba(10, 10, 10, 0.7) url('imagenes/imagen.gif');
+
+}*/
+
+
+/*TRABAJAR CON id (Solo se va a aplicar el estilo a este elemento solito)*/
+/* #NombreId {} */
+
+/*
+.Manos {
+  background-color:orange;
+  border-width: 5px;
+  border-color:black ;
+  border-style: solid;
+}
+*/
+/*PADDINGA CONTENIDO DE CADA ELEMENTO*/
+
+/*TEXTO A LA DERECHA O IZQUIERDS*/
+img.manos {
+  float: right;
+}
+img.pokemon {
+  float: right;
+}
+h1 {
+  text-align:center ; /*centrar texto*/
+}
+.titulos {
+  font-family: Times New Roman;
+ 
+}
+.parrafo {
+  text-align: left;
+}
+/*PARA DEGRADAD COLORES*/
+body {
+  background:linear-gradient(to left, black, white);
+}
+
+/*Article*/
+
+article  {
+  width: 630px;
+  min-height: 718px;
+  background: white;
+  float:left ;
+  margin-top: 5px;
+  margin-left: 1px;
+  padding: 40px;
+  padding-top: 20px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+aside {
+  text-align: center;
+  width: 240px;
+  min-height:780px;
+  background-color: green;
+  float: left;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin: 10px;
+  
+}
+
+footer {
+  clear: both;
+  width: 980px;
+  height: 50px;
+  background-color: blue;
+  color: gold;
+  text-align: center;
+  line-height: 50px; /*El texto se ajusta a la caja del footer */
+  font-style: italic;
+}
+header {
+  background-color: white;
+}
+
+.color svg {
+  float: left;
+  margin-left:8px;
+}
+
+a {
+  font-family: Times New Roman;
+  font-size: 20px;
+}
+h6 {
+  font-family:Times New Roman;
+  font-size: 15px;
+}
